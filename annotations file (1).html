@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>annotations file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="using-programmable-search-xml-format">Using Programmable Search XML Format</h2>
+<p>If you want to take advantage of all features of the Custom Search JSON API, <strong>XML IS THE WAY TO GO</strong> (There are other supported formats: . <a href="http://dev.opml.org/spec2.html">OPML.</a>,  TSV)</p>
+<h2 id="example-code">Example Code</h2>
+<p><code>&lt;Annotations&gt; &lt;Annotation about="www.cancer.gov/cancertopics/types/liver/*"&gt; &lt;Label name="_cse_Ansi-stoubiq"/&gt; &lt;Comment&gt;government site&lt;/Comment&gt; &lt;/Annotation&gt; &lt;Annotation about="www.medicinenet.com/liver_cancer/"&gt; &lt;Label name="_cse_exclude_Ansi-stoubiq"/&gt; &lt;Comment&gt;site on symptoms&lt;/Comment&gt; &lt;/Annotation&gt; &lt;Annotation about="www.webmd.com/hw/*"&gt; &lt;Label name="_cse_Ansi-stoubiq"/&gt; &lt;Comment&gt;great sites for patients!&lt;/Comment&gt; &lt;/Annotation&gt; &lt;Annotation about="www.webmd.com/hw/cancer/*"&gt; &lt;Label name="_cse_exclude_Ansi-stoubiq"/&gt; &lt;Comment&gt;great sites for patients!&lt;/Comment&gt; &lt;/Annotation&gt; &lt;Annotation about="www.oncologychannel.com/*/treatment"&gt; &lt;Label name="_cse_exclude_Ansi-stoubiq"/&gt; &lt;/Annotation&gt; &lt;/Annotations&gt;</code><br>
+The annotations file has four elements in the following hierarchy:</p>
+<ul>
+<li><code>Annotations</code>  <em>(root element)</em>
+<ul>
+<li><code>Annotation</code>
+<ul>
+<li><code>Label</code></li>
+<li><code>Comment</code>  <em>(optional)</em></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="external-annotations">External Annotations</h2>
+<p>To list the sites you want to cover do the following:</p>
+<ol>
+<li>Start the file with <code>&lt;Annotations&gt;&lt;/Annotations&gt;</code></li>
+<li>Create an annotation by adding the Annotation tag and define the about attribute with the url patter of the site</li>
+<li>Associate the site with the search engine by using the <code>&lt;Label name=''/&gt;</code> tag</li>
+<li>To add more sites, create and define another Annotation element.</li>
+<li>Save the XML file</li>
+</ol>
+<h2 id="improving-search-coverage">Improving Search Coverage</h2>
+<p><strong>webpages that have not been crawled by Google will not show up in your search results.</strong> If you want your Programmable Search Engine to include sites that are not currently in the Google index, submit a Sitemap to <a href="https://www.google.com/webmasters/tools/dashboard">Google Search Console</a></p>
+<h2 id="what-is-a-sitemap">What is a sitemap?</h2>
+<p>A Sitemap includes a list of pages in your site, as well as information about the update frequency of the webpages and their importance relative to each other. Submitting a Sitemap helps Google discover your webpages and improve the crawling schedule.</p>
+<p><a href="https://www.google.com/webmasters/tools/docs/en/protocol.html">Using the Sitemap Protocol</a></p>
+<p>If you are interested in building fancier Sitemaps, see <a href="http://www.sitemaps.org/protocol.php">http://www.sitemaps.org/protocol.php</a>.</p>
+<p>Submitting Sitemaps is particularly helpful if your site has the following:</p>
+<ul>
+<li>
+<p>Dynamic content</p>
+</li>
+<li>
+<p>Webpages that aren’t easily discovered by Googlebot (Google’s web crawler), such as pages with rich AJAX or Flash features</p>
+</li>
+<li>
+<p>Few websites linking to it.</p>
+<p>Googlebot crawls the web by following links from one page to another, so if your site isn’t well linked, it is hard for the crawler to discover it. If your website is new, probably not many websites are pointing to your site.</p>
+</li>
+<li>
+<p>A large archive of content pages that does not have a strong network of cross-linking</p>
+</li>
+</ul>
+<h2 id="limits-of-annotations">Limits of Annotations</h2>
+<p>| File size | 30KB |<br>
+| Number of annotations per file | 2000 |<br>
+| Max num of annotations per engine | 5000 |</p>
+<p><strong>Tip:</strong> If you find your search engine outgrowing the large 5,000-site limit, consider consolidating individual URLs into <a href="https://support.google.com/programmable-search/answer/4513886">URL patterns</a>.</p>
+<p><strong>Tip:</strong>  If you find your search engine outgrowing the large 5,000-site limit, consider consolidating individual URLs into  <a href="https://support.google.com/programmable-search/answer/4513886">URL patterns</a>.</p>
+<blockquote>
+<p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>json-api</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p><a href="https://github.com/google/google-api-javascript-client/blob/master/docs/reference.md">Documentation and Source for Javascript API</a></p>
+<p>The Custom Search JSON API lets you develop websites and applications to retrieve and display search results from Programmable Search Engine programmatically.</p>
+<p>RESTful requests can be done to get either websearch or img search in JSON format</p>
+<h2 id="data-format">Data format:</h2>
+<p><strong>ATOM results format is no longer supported</strong></p>
+<p>The Custom Search JSON API uses the <a href="https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md">OpenSearch 1.1 Specification</a></p>
+<h2 id="prereq">Prereq:</h2>
+<p>You must first create a Programmable Search Engine. Please refer to the tutorial.html file to get it setup</p>
+<p><strong>Get JSON API Key:</strong><br>
+<a href="https://developers.google.com/custom-search/v1/overview#:~:text=an%20API%20key.-,Get%20a%20Key,-Pricing">https://developers.google.com/custom-search/v1/overview#:~:text=an API key.-,Get a Key,-Pricing</a></p>
+<h2 id="pricing">Pricing</h2>
+<p>Custom Search JSON API provides <strong>100 search queries</strong> per day for free. If you need more, you may sign up for <a href="https://cloud.google.com/billing/docs/how-to/manage-billing-account">billing</a></p>
+<p>If you need more than <strong>10k queries per day and your Programmable Search Engine searches 10 sites or fewer</strong>, you may be interested in the <a href="https://developers.google.com/custom-search/v1/site_restricted_api">Custom Search Site Restricted JSON API</a>, which does not have a daily query limit</p>
+<h2 id="monitoring">Monitoring:</h2>
+<p>Done via <a href="https://console.cloud.google.com/apis/dashboard">Cloud Platform Console’s API Dashboard</a></p>
+<h2 id="intro">Intro:</h2>
+<h2 id="json-custom-search-api-overview">JSON Custom Search API Overview:</h2>
+<p>There is only one method: list -&gt; returns the requested search results -&gt; GET</p>
+<h2 id="json-api-data-model">JSON API Data Model</h2>
+<p>The result of a search query to the Custom Search JSON API is a JSON object that includes 3 types of data:</p>
+<ul>
+<li>Metadata describing the requested search</li>
+<li>Metadata describing search engine</li>
+<li>Search results</li>
+</ul>
+<p>The Custom Search JSON API defines two custom properties and two custom query roles</p>
+<p>Custom properties:</p>
+<ul>
+<li>cx: The identifier of the Programmable Search Engine</li>
+<li>safe: A description of the safe search level for filtering the returned results<br>
+Custom query roles:</li>
+<li>nextPage: A role that indicates the query can be used to access the next logical page of results</li>
+<li>previousPage: A role that indicates the query can be used to access the previous logical page of results, if any.</li>
+</ul>
+<h2 id="using-rest">Using REST:</h2>
+<p>somewhat different from traditional REST</p>
+<p>the API provides access to a service. As a result, the API provides a single URI that acts as the service endpoint.</p>
+<p>You can retrieve results for a particular search by sending an HTTP <code>GET</code> req</p>
+<p>format for the Custom Search JSON API URI is: <code>https://www.googleapis.com/customsearch/v1?[parameters]</code><br>
+Three query [parameters] are required with each request:</p>
+<ul>
+<li>API Key - use the key query param to <a href="https://developers.google.com/custom-search/json-api/v1/introduction#identify_your_application_to_google_with_api_key">identify your application</a></li>
+<li>Prog Search Eng ID - use cs to specify the Programmable Search Engine you want to use to perform this search.</li>
+</ul>
+<p>CHECK results.txt to see the JSON API in action.</p>
+<blockquote>
+<p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote>
+</div>
+</body>
+
+</html>

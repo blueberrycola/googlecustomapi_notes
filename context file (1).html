@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>context file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="overview">Overview</h2>
+<p>A context file describes the structure of your search engine and defines its behavior.</p>
+<p>Example:  describes a search engine for climate change, img search enabled.</p>
+<p><code>&lt;CustomSearchEngine keywords="climate &amp;quot;global warming&amp;quot; &amp;quot;greenhouse gases&amp;quot;" language="en" encoding="UTF-8"&gt; &lt;Title&gt;RealClimate&lt;/Title&gt; &lt;Description&gt;Science behind global warming and climate change.&lt;/Description&gt; &lt;Context&gt; &lt;BackgroundLabels&gt; &lt;Label name="_cse_hwbuiarvsbo" mode="FILTER"/&gt; &lt;Label name="_cse_exclude_hwbuiarvsbo" mode="ELIMINATE"/&gt; &lt;/BackgroundLabels&gt; &lt;/Context&gt; &lt;LookAndFeel nonprofit="false"/&gt; &lt;ImageSearchSettings enable="true" layout="1" /&gt; &lt;/CustomSearchEngine&gt;</code></p>
+<h2 id="elements">Elements</h2>
+<p>CustomSearchEngine: Encloses all information about the search engine, contains the following attributes:</p>
+<ul>
+<li>
+<p>keywords: specifies a list of space seperated keywords</p>
+</li>
+<li>
+<p>language: user interface language</p>
+</li>
+<li>
+<p>encoding: Specifies the encoding for your search results page</p>
+</li>
+<li>
+<p>autocompletions: indicates wheater should generate glossary autocompletions for your search engine. Allowed values are true or false.<br>
+Title: The name of your engine<br>
+Description: Description of your engine<br>
+Context: hols information about labels. <strong>Includes the child elements BackgroundLabels and Facet</strong><br>
+BackgroundLabels: Container for labels used to promote include or exclude pages<br>
+Label: Used to promote sites or determine inclusion/exclusion of sites. Has the following attributes</p>
+</li>
+<li>
+<p>name: label name</p>
+</li>
+<li>
+<p>mode FILTER or ELIMINATE: (promotes or exclusively shows preferred sites)  (excludes site)<br>
+LookAndFeel: Determines whether your search results show ads, etc<br>
+AdSense: Associates the search engine with your AdSense account.<br>
+ImageSearchSettings: Specifies if img search enabled. Has the following attributes:<br>
+enable: specifies whether to enable<br>
+layout: specifies layout</p>
+</li>
+<li>
+<p>Value</p>
+<p>Layout</p>
+<p><code>0</code></p>
+<p><img src="https://developers.google.com/custom-search/images/img_layout_classic.png" alt="Programmable Search Engine Image layout option - Classic"></p>
+<p><code>1</code></p>
+<p><img src="https://developers.google.com/custom-search/images/image_layout_column.png" alt="Programmable Search Engine Image layout option - Column"></p>
+<p><code>2 (default)</code></p>
+<p><img src="https://developers.google.com/custom-search/images/image_layout_popup.png" alt="Programmable Search Engine Image layout option - Popup"></p>
+</li>
+</ul>
+<blockquote>
+<p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote>
+</div>
+</body>
+
+</html>

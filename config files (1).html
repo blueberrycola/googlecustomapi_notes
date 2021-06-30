@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>config files</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="overview">Overview:</h2>
+<p>Since the control panel doesnt offer much control we can use the custom search json api. This api offers more flexibility and control in XML/TSV format.</p>
+<p>To enable simply go into the control panel, advanced tab, and download your annotations and context XML files.</p>
+<h2 id="xml-basics">XML Basics:</h2>
+<p>Extensible Marilup Language is a general-purpose markup lang. It is simply text with tags that you can read. For example Programmable Search XML format includes the following tags. <code>&lt;Context&gt; &lt;/Context&gt;</code> and <code>&lt;LookAndFeel&gt; &lt;/LookAndFeel&gt;</code></p>
+<p>your Programmable Search Engine specifications must follow XML syntax (<code>&lt;element attribute="value"&gt;content&lt;/element&gt;</code>) and be well-formed. XML has the following rules:</p>
+<ul>
+<li>XML requires you to precede your top-level tags with an XML declaration (<code>&lt;?xml version="1.0"?&gt;</code>), but the Custom Search JSON API doesn’t require it.</li>
+<li>All your elements must have an opening tag (<code>&lt;tag&gt;</code>) and a closing tag (<code>&lt;/tag&gt;</code>).</li>
+<li>All your tags must be properly nested. You cannot have XML code that looks like:  <code>&lt;sandwich&gt;&lt;filling&gt; peanut butter&lt;/sandwich&gt;&lt;/filling&gt;</code>. Instead, it should be like:  <code>&lt;sandwich&gt;&lt;filling&gt; peanut butter&lt;/filling&gt;&lt;/sandwich&gt;</code>.</li>
+<li>XML is case-sensitive, so carefully follow the capitalization and spelling of the tags in the instructions.</li>
+<li>All attribute values must be enclosed in double quotation marks (<code>&lt;element attribute="value"&gt;</code>).</li>
+<li>All attributes must be defined in the opening tag (<code>&lt;element attribute="value"&gt;</code>), not the closing tag (  <code>&lt;/element&gt;</code>).</li>
+</ul>
+<p>You can write notes for yourself using comment tags (<code>&lt;!-- your comment here --&gt;</code>),</p>
+<h2 id="whats-in-a-programmable-search-engine">What’s in a programmable search engine</h2>
+<p>A search engine contains two components, each of which are controlled by xml files.</p>
+<ul>
+<li>Context: the context xml file describes the basic features of a search engine. It defines the global settings</li>
+<li>Annotations: lists the webpages or websites you your search engine to cover, and indictates any preferences.</li>
+</ul>
+<h2 id="how-the-components-work-together">How the components work together</h2>
+<p>Search Engine uses  <strong>labels</strong>  to associate context and annotations. The context XML file includes labels that identify the search engine, and each annotation listed in the annotations XML is tagged with one or more labels identifying the search engine(s) to which it belongs. <strong>If you change the name of the label in the context file, you have to change all the annotations that have been tagged with that label.</strong></p>
+<p>Although you can upload multiple annotations files, when you download them through the Control Panel, <strong>Programmable Search Engine merges all your annotations files into a single annotations file</strong>.</p>
+<h2 id="creating-advanced-search-engines">Creating Advanced Search Engines</h2>
+<p>Creating advanced engines involves the following steps:</p>
+<ol>
+<li><a href="https://developers.google.com/custom-search/docs/basics#format">Determine the format</a>  that is appropriate for your needs.</li>
+<li><a href="https://developers.google.com/custom-search/docs/context">Define the specifications</a>  for your search engine.</li>
+<li><a href="https://developers.google.com/custom-search/docs/annotations">Tell Programmable Search Engine which sites to search</a>.</li>
+<li><a href="https://developers.google.com/custom-search/docs/ranking">Tell Programmable Search Engine how to rank the search results</a>.</li>
+</ol>
+<p><strong>Make a backup copy of the downloaded file in case your edited version does not work as expected</strong></p>
+<h2 id="choosing-format">Choosing Format:</h2>
+<h2 id="choosing-the-right-format">Choosing the Right Format</h2>
+<p>Before you start creating your Programmable Search Engine, determine which format best suits your needs. You don’t want to select a format that is more powerful and complex than what you need, nor do you want to use one that you will quickly outgrow.</p>
+<p>You can quickly create your Programmable Search Engine by filling out text boxes instead of creating files with a text editor and uploading the files.</p>
+<p>The Control Panel is mostly useful for familiarizing yourself with Programmable Search Engine and creating search engines with few sites.</p>
+<p>If you want to really customize your search engine or add a great number of sites, you might find the following quite limiting:</p>
+<ul>
+<li>You cannot access all the features available on Programmable Search Engine.</li>
+<li>You have to add sites one at a time in the Control Panel. Adding large number of sites and managing them can become tedious.</li>
+<li>You do not have a full control over the look and feel of your search engine and over the ranking in the search results.</li>
+</ul>
+<h2 id="complex-search">Complex Search</h2>
+<p>Complex search engines that use lots of sites, use feeds, or are programmatically created</p>
+<p><strong>Context file and annotations files</strong></p>
+<p>The Programmable Search Engine files give you a greater level of control over your search engines, and make the tasks of defining and managing sites a lot easier.</p>
+<p>Even though you plan to create your search engine using context and annotations files, it’s still a good idea to familiarize yourself with the Control Panel. The  <strong>Preview</strong>  tab lets you instantly view the results of your experimentation.</p>
+<p>The more you customize your search engine, the more complex it becomes. You have to learn the Programmable Search Elements and attributes, which are not hard to pick up, but they do require you to invest some time.</p>
+<p>You will have to read the rest of the developer guide, which is not the most exciting reading material, unfortunately.</p>
+<blockquote>
+<p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>robots.txt</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="intro">Intro</h2>
+<p>A robots.txt file tells the search engine crawlers which URLs the crawler can access on your site. This is used by mainly to avoid overloading your site with requests.</p>
+<h2 id="what-is-it-used-for">What is it used for?</h2>
+<p>A robots.txt file is uesed primarily to manage crawler traffic to your site.</p>
+<p>robots.txt effect on different file types.</p>
+<p>Web page: HTML/PDF to manage traffic<br>
+Media file: manage crawl traffic and also prevent img video and audio files from appearing on search results<br>
+Resource file: block resource files such as unimportant img, script or css files. <strong>IF THE ABSENCE OF THESE RESOURCES MAKE THE PAGE HARDER TO LOAD CONSIDER UNBLOCKING</strong></p>
+<h2 id="limitations">Limitations</h2>
+<p>robots.txt directives may not be supported by all search engines. The instructions in  robots.txt files cannot enforce crawler behavior to your site.</p>
+<p>different crawlers interpret syntax differently</p>
+<p>A robotted page can still be indexed if linked to from other sites.</p>
+<h2 id="creating-robots.txt">Creating robots.txt</h2>
+<p>A robots.txt is a plain text file that lives in the root of your site. For example: <a href="http://www.example.com/robots.txt">www.example.com/robots.txt</a>. These text files follow <a href="https://en.wikipedia.org/wiki/Robots_exclusion_standard#About_the_standard">Robots Exclusion Standard</a><br>
+A robots.txt file has at least one rule. Each rule blocks or allows acces for a given crawler to a specified file.</p>
+<h2 id="syntax">Syntax</h2>
+<p>Here is a simple robots.txt file with two rules:</p>
+<p>User-agent: Googlebot<br>
+Disallow: /nogooglebot/</p>
+<p>User-agent: *<br>
+Allow: /</p>
+<p>Sitemap: <a href="http://www.example.com/sitemap.xml">http://www.example.com/sitemap.xml</a></p>
+<p><strong>Here’s what that robots.txt file means:</strong></p>
+<ol>
+<li>The user agent named Googlebot is not allowed to crawl any URL that starts with  <code>http://example.com/nogooglebot/</code>.</li>
+<li>All other user agents are allowed to crawl the entire site. This could have been omitted and the result would be the same; the default behavior is that user agents are allowed to crawl the entire site.</li>
+<li>The site’s  <a href="https://developers.google.com/search/docs/advanced/sitemaps/overview">sitemap file</a>  is located at  <code>http://www.example.com/sitemap.xml</code>.</li>
+</ol>
+<p>See the <a href="https://developers.google.com/search/docs/advanced/robots/create-robots-txt#create_rules">syntax</a> section for more examples.</p>
+<h2 id="uploading-robots.txt-to-your-site">Uploading robots.txt to your site</h2>
+<p>There’s no one tool that can help you with this, because how you upload the robots.txt file to your site depends on your site and server architecture.</p>
+<p>learn <a href="https://developers.google.com/search/docs/advanced/robots/submit-updated-robots-txt">how to submit an updated robots.txt file</a>.</p>
+<h2 id="rules">Rules</h2>
+<p><a href="https://developers.google.com/search/docs/advanced/robots/create-robots-txt#useful-robots.txt-rules">Boilerplate robots.txt rules</a></p>
+<h2 id="updating-your-robots.txt-file">Updating your robots.txt file</h2>
+<p>download the text file<br>
+edit in text doc<br>
+upload and refresh your cache</p>
+<h2 id="scope--interpretation-table">Scope + Interpretation Table</h2>
+<p><a href="https://developers.google.com/search/docs/advanced/robots/robots_txt#examples-of-valid-robots.txt-urls">URL Scope</a></p>
+<h2 id="error-handling">Error Handling</h2>
+<p><a href="https://developers.google.com/search/docs/advanced/robots/robots_txt#handling-of-errors-and-http-status-codes">Errors</a></p>
+<blockquote>
+<p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote>
+</div>
+</body>
+
+</html>
