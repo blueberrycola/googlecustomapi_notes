@@ -1,0 +1,427 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "totalResults": "80",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "44e2b4099c73c4a6e",
+        "exactTerms": "data science"
+      }
+    ],
+    "nextPage": [
+      {
+        "totalResults": "80",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "44e2b4099c73c4a6e",
+        "exactTerms": "data science"
+      }
+    ]
+  },
+  "context": {
+    "title": "1cademy"
+  },
+  "searchInformation": {
+    "searchTime": 0.231939,
+    "formattedSearchTime": "0.23",
+    "totalResults": "80",
+    "formattedTotalResults": "80"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Data Science - 1man",
+      "htmlTitle": "\u003cb\u003eData Science\u003c/b\u003e - 1man",
+      "link": "https://node.1cademy.com/node/Data%20Science/FJfzAX7zbgQS8jU5XcEk",
+      "displayLink": "node.1cademy.com",
+      "snippet": "6 days ago ... Science is a systematic effort to build and organize knowledge as testable \nstatements and predictions. Data science, as an interdisciplinary ...",
+      "htmlSnippet": "6 days ago \u003cb\u003e...\u003c/b\u003e Science is a systematic effort to build and organize knowledge as testable \u003cbr\u003e\nstatements and predictions. \u003cb\u003eData science\u003c/b\u003e, as an interdisciplinary&nbsp;...",
+      "cacheId": "tap-0eVOvIwJ",
+      "formattedUrl": "https://node.1cademy.com/node/Data%20Science/FJfzAX7zbgQS8jU5XcEk",
+      "htmlFormattedUrl": "https://node.1cademy.com/node/Data%20Science/FJfzAX7zbgQS8jU5XcEk",
+      "pagemap": {
+        "metatags": [
+          {
+            "summary": "Science is a systematic effort to build and organize knowledge as testable statements and predictions. Data science, as an interdisciplinary field, involves data and, by extension, statistics, or the systematic study of the organization, properties, and analysis of data and its role in inference, including our confidence in the inference. It uses scientific methods, processes, and algorithms to extract knowledge and infer insights from structured and unstructured data. By: 1man Keywords: Data Science",
+            "date": "2021-06-24",
+            "coverage": "Worldwide",
+            "copyright": "1Cademy",
+            "handheldfriendly": "False",
+            "subject": "Data Science - 1man",
+            "author": "1man",
+            "rating": "General",
+            "language": "ENG",
+            "abstract": "Science is a systematic effort to build and organize knowledge as testable statements and predictions. Data science, as an interdisciplinary field, involves data and, by extension, statistics, or the systematic study of the organization, properties, and analysis of data and its role in inference, including our confidence in the inference. It uses scientific methods, processes, and algorithms to extract knowledge and infer insights from structured and unstructured data.",
+            "classification": "Concept",
+            "distribution": "Global",
+            "target": "all",
+            "viewport": "width=device-width, initial-scale=1",
+            "topic": "Data Science",
+            "revised": "Thu Jun 24 2021 17:27:05 GMT+0000 (Coordinated Universal Time)",
+            "reply-to": "info@1cademy.com"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Helpful Data Science Online Articles - hamza-baccouche",
+      "htmlTitle": "Helpful \u003cb\u003eData Science\u003c/b\u003e Online Articles - hamza-baccouche",
+      "link": "https://node.1cademy.com/node/Helpful%20Data%20Science%20Online%20Articles/8GZdZnNRE98Vg7GR8AVx",
+      "displayLink": "node.1cademy.com",
+      "snippet": "Apr 18, 2021 ... Helpful Data Science Online Articles. This node can be used to share links to \nonline articles and websites that are beneficial for learning and ...",
+      "htmlSnippet": "Apr 18, 2021 \u003cb\u003e...\u003c/b\u003e Helpful \u003cb\u003eData Science\u003c/b\u003e Online Articles. This node can be used to share links to \u003cbr\u003e\nonline articles and websites that are beneficial for learning and&nbsp;...",
+      "cacheId": "pTlKBWg7yz8J",
+      "formattedUrl": "https://node.1cademy.com/node/.../8GZdZnNRE98Vg7GR8AVx",
+      "htmlFormattedUrl": "https://node.1cademy.com/node/.../8GZdZnNRE98Vg7GR8AVx",
+      "pagemap": {
+        "metatags": [
+          {
+            "summary": "This node can be used to share links to online articles and websites that are beneficial for learning and are references for other nodes.  By: hamza-baccouche Keywords: Helpful Data Science Online Articles Data Science,",
+            "date": "2021-04-18",
+            "coverage": "Worldwide",
+            "copyright": "1Cademy",
+            "handheldfriendly": "False",
+            "subject": "Helpful Data Science Online Articles - hamza-baccouche",
+            "author": "hamza-baccouche",
+            "rating": "General",
+            "language": "ENG",
+            "abstract": "This node can be used to share links to online articles and websites that are beneficial for learning and are references for other nodes.",
+            "classification": "Relation",
+            "distribution": "Global",
+            "target": "all",
+            "viewport": "width=device-width, initial-scale=1",
+            "topic": "Helpful Data Science Online Articles",
+            "revised": "Sun Apr 18 2021 18:02:33 GMT+0000 (Coordinated Universal Time)",
+            "reply-to": "info@1cademy.com"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Helpful Data Science Modules (Python) - turrenk",
+      "htmlTitle": "Helpful \u003cb\u003eData Science\u003c/b\u003e Modules (Python) - turrenk",
+      "link": "https://node.1cademy.com/node/Helpful%20Data%20Science%20Modules%20(Python)/kNMFQhb7FH0JKPwIvRyX",
+      "displayLink": "node.1cademy.com",
+      "snippet": "Helpful Data Science Modules (Python). The python libraries in the list below are \navailable to be downloaded (available at various sources, via your preferred ...",
+      "htmlSnippet": "Helpful \u003cb\u003eData Science\u003c/b\u003e Modules (Python). The python libraries in the list below are \u003cbr\u003e\navailable to be downloaded (available at various sources, via your preferred&nbsp;...",
+      "cacheId": "S9w0wKrdB_kJ",
+      "formattedUrl": "https://node.1cademy.com/node/.../kNMFQhb7FH0JKPwIvRyX",
+      "htmlFormattedUrl": "https://node.1cademy.com/node/.../kNMFQhb7FH0JKPwIvRyX",
+      "pagemap": {
+        "metatags": [
+          {
+            "summary": "The python libraries in the list below are available to be downloaded (available at various sources, via your preferred method ; Anaconda, pip, etc.) and used in the processing, visualization, and analysis of data. \u003cbr\u003e\u003cbr\u003e1) scikit-learn  python machine learning library\u003cbr\u003e2) numpy       scientific computing library\u003cbr\u003e3) pandas      Data manipulation and analysis \u003cbr\u003e4) matplotlib  plotting library By: turrenk Keywords: Helpful Data Science Modules (Python) Data Science, Data science references,",
+            "date": "2020-09-12",
+            "coverage": "Worldwide",
+            "copyright": "1Cademy",
+            "handheldfriendly": "False",
+            "subject": "Helpful Data Science Modules (Python) - turrenk",
+            "author": "turrenk",
+            "rating": "General",
+            "language": "ENG",
+            "abstract": "The python libraries in the list below are available to be downloaded (available at various sources, via your preferred method ; Anaconda, pip, etc.) and used in the processing, visualization, and analysis of data. \u003cbr\u003e\u003cbr\u003e1) scikit-learn  python machine learning library\u003cbr\u003e2) numpy       scientific computing library\u003cbr\u003e3) pandas      Data manipulation and analysis \u003cbr\u003e4) matplotlib  plotting library",
+            "classification": "Relation",
+            "distribution": "Global",
+            "target": "all",
+            "viewport": "width=device-width, initial-scale=1",
+            "topic": "Helpful Data Science Modules (Python)",
+            "revised": "Sat Sep 12 2020 21:54:03 GMT+0000 (Coordinated Universal Time)",
+            "reply-to": "info@1cademy.com"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Data Processing and Modeling - Shahbab-Ahmed",
+      "htmlTitle": "Data Processing and Modeling - Shahbab-Ahmed",
+      "link": "https://node.1cademy.com/node/Data%20Processing%20and%20Modeling/l1nrWXcqxPDqFHdxQ6W8",
+      "displayLink": "node.1cademy.com",
+      "snippet": "Sep 11, 2020 ... Numpy - Pandas - SciPy By: Shahbab-Ahmed Keywords: Data Processing and \nModeling Data Science,",
+      "htmlSnippet": "Sep 11, 2020 \u003cb\u003e...\u003c/b\u003e Numpy - Pandas - SciPy By: Shahbab-Ahmed Keywords: Data Processing and \u003cbr\u003e\nModeling \u003cb\u003eData Science\u003c/b\u003e,",
+      "cacheId": "WjK1oWPZg1gJ",
+      "formattedUrl": "https://node.1cademy.com/node/.../l1nrWXcqxPDqFHdxQ6W8",
+      "htmlFormattedUrl": "https://node.1cademy.com/node/.../l1nrWXcqxPDqFHdxQ6W8",
+      "pagemap": {
+        "metatags": [
+          {
+            "summary": "- Numpy\u003cbr\u003e- Pandas\u003cbr\u003e- SciPy By: Shahbab-Ahmed Keywords: Data Processing and Modeling Data Science,",
+            "date": "2020-09-11",
+            "coverage": "Worldwide",
+            "copyright": "1Cademy",
+            "handheldfriendly": "False",
+            "subject": "Data Processing and Modeling - Shahbab-Ahmed",
+            "author": "Shahbab-Ahmed",
+            "rating": "General",
+            "language": "ENG",
+            "abstract": "- Numpy\u003cbr\u003e- Pandas\u003cbr\u003e- SciPy",
+            "classification": "Relation",
+            "distribution": "Global",
+            "target": "all",
+            "viewport": "width=device-width, initial-scale=1",
+            "topic": "Data Processing and Modeling",
+            "revised": "Fri Sep 11 2020 20:39:34 GMT+0000 (Coordinated Universal Time)",
+            "reply-to": "info@1cademy.com"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "An Introduction to Statistical Learning with Applications in R - 1man",
+      "htmlTitle": "An Introduction to Statistical Learning with Applications in R - 1man",
+      "link": "https://node.1cademy.com/node/An%20Introduction%20to%20Statistical%20Learning%20with%20Applications%20in%20R/225hcHVHknkSkV9kCcTY",
+      "displayLink": "node.1cademy.com",
+      "snippet": "Sep 1, 2020 ... 112, pp. 3-7). New York: springer. By: 1man Keywords: An Introduction to \nStatistical Learning with Applications in R Data Science,",
+      "htmlSnippet": "Sep 1, 2020 \u003cb\u003e...\u003c/b\u003e 112, pp. 3-7). New York: springer. By: 1man Keywords: An Introduction to \u003cbr\u003e\nStatistical Learning with Applications in R \u003cb\u003eData Science\u003c/b\u003e,",
+      "cacheId": "UyzlTnFiSZ4J",
+      "formattedUrl": "https://node.1cademy.com/node/.../225hcHVHknkSkV9kCcTY",
+      "htmlFormattedUrl": "https://node.1cademy.com/node/.../225hcHVHknkSkV9kCcTY",
+      "pagemap": {
+        "metatags": [
+          {
+            "summary": "James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An introduction to statistical learning (Vol. 112, pp. 3-7). New York: springer. By: 1man Keywords: An Introduction to Statistical Learning with Applications in R Data Science,",
+            "date": "2020-09-01",
+            "coverage": "Worldwide",
+            "copyright": "1Cademy",
+            "handheldfriendly": "False",
+            "subject": "An Introduction to Statistical Learning with Applications in R - 1man",
+            "author": "1man",
+            "rating": "General",
+            "language": "ENG",
+            "abstract": "James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An introduction to statistical learning (Vol. 112, pp. 3-7). New York: springer.",
+            "classification": "Reference",
+            "distribution": "Global",
+            "target": "all",
+            "viewport": "width=device-width, initial-scale=1",
+            "topic": "An Introduction to Statistical Learning with Applications in R",
+            "revised": "Tue Sep 01 2020 22:09:32 GMT+0000 (Coordinated Universal Time)",
+            "reply-to": "info@1cademy.com"
+          }
+        ],
+        "MediaObject": [
+          {
+            "datePublished": "2020-02-07",
+            "itemtype": "http://schema.org/MediaObject",
+            "name": "An Introduction to Statistical Learning with Applications in R - 1man",
+            "description": "James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An introduction to statistical learning (Vol. 112, pp. 3-7). New York: springer. By: 1man Keywords: An Introduction to Statistical Learning with Applications in R Data Science,",
+            "dateModified": "2020-09-01",
+            "nodeType": "Reference",
+            "url": "https://node.1cademy.com/node/An%20Introduction%20to%20Statistical%20Learning%20with%20Applications%20in%20R/225hcHVHknkSkV9kCcTY"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Which of these could be an acceptable sequence of operations ...",
+      "htmlTitle": "Which of these could be an acceptable sequence of operations ...",
+      "link": "https://node.1cademy.com/node/Which%20of%20these%20could%20be%20an%20acceptable%20sequence%20of%20operations%20using%20scikit-learn%20to%20apply%20the%20k-nearest%20neighbors%20classification%20method/UX68la4ugenyfMEWm2jm",
+      "displayLink": "node.1cademy.com",
+      "snippet": "Oct 19, 2020 ... ... could be an acceptable sequence of operations using scikit-learn to apply the k\n-nearest neighbors classification method? Data Science,",
+      "htmlSnippet": "Oct 19, 2020 \u003cb\u003e...\u003c/b\u003e ... could be an acceptable sequence of operations using scikit-learn to apply the k\u003cbr\u003e\n-nearest neighbors classification method? \u003cb\u003eData Science\u003c/b\u003e,",
+      "cacheId": "4j_ukFzuIKMJ",
+      "formattedUrl": "https://node.1cademy.com/node/.../UX68la4ugenyfMEWm2jm",
+      "htmlFormattedUrl": "https://node.1cademy.com/node/.../UX68la4ugenyfMEWm2jm",
+      "pagemap": {
+        "metatags": [
+          {
+            "summary": "By: 1man Keywords: Which of these could be an acceptable sequence of operations using scikit-learn to apply the k-nearest neighbors classification method? Data Science,",
+            "date": "2020-10-19",
+            "coverage": "Worldwide",
+            "copyright": "1Cademy",
+            "handheldfriendly": "False",
+            "subject": "Which of these could be an acceptable sequence of operations using scikit-learn to apply the k-nearest neighbors classification method? - 1man",
+            "author": "1man",
+            "rating": "General",
+            "language": "ENG",
+            "classification": "Question",
+            "distribution": "Global",
+            "target": "all",
+            "viewport": "width=device-width, initial-scale=1",
+            "topic": "Which of these could be an acceptable sequence of operations using scikit-learn to apply the k-nearest neighbors classification method?",
+            "revised": "Mon Oct 19 2020 16:52:07 GMT+0000 (Coordinated Universal Time)",
+            "reply-to": "info@1cademy.com"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "What is One Hot Encoding and How to Do It - Iain-Graham",
+      "htmlTitle": "What is One Hot Encoding and How to Do It - Iain-Graham",
+      "link": "https://node.1cademy.com/node/What%20is%20One%20Hot%20Encoding%20and%20How%20to%20Do%20It/jLSHIjYvY5mEVLOgEZ8c",
+      "displayLink": "node.1cademy.com",
+      "snippet": "Apr 24, 2021 ... Parents: Helpful Data Science Online Articles. Children: Why one-hot encode \ndata in ML · When to use one-hot encoding? Tags:.",
+      "htmlSnippet": "Apr 24, 2021 \u003cb\u003e...\u003c/b\u003e Parents: Helpful \u003cb\u003eData Science\u003c/b\u003e Online Articles. Children: Why one-hot encode \u003cbr\u003e\ndata in ML &middot; When to use one-hot encoding? Tags:.",
+      "cacheId": "9BceRJNQrR0J",
+      "formattedUrl": "https://node.1cademy.com/node/.../jLSHIjYvY5mEVLOgEZ8c",
+      "htmlFormattedUrl": "https://node.1cademy.com/node/.../jLSHIjYvY5mEVLOgEZ8c",
+      "pagemap": {
+        "metatags": [
+          {
+            "summary": "DelSole, Michael. (2018, April 24). *What is One Hot Encoding and How to Do It*. Medium. Retrieved from [medium.com/@michaeldelsole/what-is-one-hot-encoding-and-how-to-do-it-f0ae272f1179](https://medium.com/@michaeldelsole/what-is-one-hot-encoding-and-how-to-do-it-f0ae272f1179)  By: Iain-Graham Keywords: What is One Hot Encoding and How to Do It Data Science,",
+            "date": "2020-12-14",
+            "coverage": "Worldwide",
+            "copyright": "1Cademy",
+            "handheldfriendly": "False",
+            "subject": "What is One Hot Encoding and How to Do It - Iain-Graham",
+            "author": "Iain-Graham",
+            "rating": "General",
+            "language": "ENG",
+            "abstract": "DelSole, Michael. (2018, April 24). *What is One Hot Encoding and How to Do It*. Medium. Retrieved from [medium.com/@michaeldelsole/what-is-one-hot-encoding-and-how-to-do-it-f0ae272f1179](https://medium.com/@michaeldelsole/what-is-one-hot-encoding-and-how-to-do-it-f0ae272f1179)",
+            "classification": "Reference",
+            "distribution": "Global",
+            "target": "all",
+            "viewport": "width=device-width, initial-scale=1",
+            "topic": "What is One Hot Encoding and How to Do It",
+            "revised": "Mon Dec 14 2020 16:50:18 GMT+0000 (Coordinated Universal Time)",
+            "reply-to": "info@1cademy.com"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "NumPy - emmafinkel",
+      "htmlTitle": "NumPy - emmafinkel",
+      "link": "https://node.1cademy.com/node/NumPy/3ImSTlqcJ8rgUVr77oX3",
+      "displayLink": "node.1cademy.com",
+      "snippet": "... Numerical Python, is a Python library that contains n-dimensional arrays and \ntools for processing those arrays. By: emmafinkel Keywords: NumPy Data \nScience,",
+      "htmlSnippet": "... Numerical Python, is a Python library that contains n-dimensional arrays and \u003cbr\u003e\ntools for processing those arrays. By: emmafinkel Keywords: NumPy \u003cb\u003eData\u003c/b\u003e \u003cbr\u003e\n\u003cb\u003eScience\u003c/b\u003e,",
+      "cacheId": "rttU9Hhb9ygJ",
+      "formattedUrl": "https://node.1cademy.com/node/NumPy/3ImSTlqcJ8rgUVr77oX3",
+      "htmlFormattedUrl": "https://node.1cademy.com/node/NumPy/3ImSTlqcJ8rgUVr77oX3",
+      "pagemap": {
+        "metatags": [
+          {
+            "summary": "NumPy, which stands for Numerical Python, is a Python library that contains n-dimensional arrays and tools for processing those arrays. By: emmafinkel Keywords: NumPy Data Science,",
+            "date": "2020-09-14",
+            "coverage": "Worldwide",
+            "copyright": "1Cademy",
+            "handheldfriendly": "False",
+            "subject": "NumPy - emmafinkel",
+            "author": "emmafinkel",
+            "rating": "General",
+            "language": "ENG",
+            "abstract": "NumPy, which stands for Numerical Python, is a Python library that contains n-dimensional arrays and tools for processing those arrays.",
+            "classification": "Concept",
+            "distribution": "Global",
+            "target": "all",
+            "viewport": "width=device-width, initial-scale=1",
+            "topic": "NumPy",
+            "revised": "Mon Sep 14 2020 16:11:30 GMT+0000 (Coordinated Universal Time)",
+            "reply-to": "info@1cademy.com"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Probabilistic Skill Similarity (Knowledge Query Network for ...",
+      "htmlTitle": "Probabilistic Skill Similarity (Knowledge Query Network for ...",
+      "link": "https://node.1cademy.com/node/Probabilistic%20Skill%20Similarity%20(Knowledge%20Query%20Network%20for%20Knowledge%20Tracing)/A0CMOcl3LiTKSVQXGDjy",
+      "displayLink": "node.1cademy.com",
+      "snippet": "... 2} = \\frac {s_1 - s_2} {|| s_1 - s_2||}$$ By: Nini Keywords: Probabilistic Skill \nSimilarity (Knowledge Query Network for Knowledge Tracing) Data Science,",
+      "htmlSnippet": "... 2} = \\frac {s_1 - s_2} {|| s_1 - s_2||}$$ By: Nini Keywords: Probabilistic Skill \u003cbr\u003e\nSimilarity (Knowledge Query Network for Knowledge Tracing) \u003cb\u003eData Science\u003c/b\u003e,",
+      "cacheId": "oorc0_jOByQJ",
+      "formattedUrl": "https://node.1cademy.com/node/.../A0CMOcl3LiTKSVQXGDjy",
+      "htmlFormattedUrl": "https://node.1cademy.com/node/.../A0CMOcl3LiTKSVQXGDjy",
+      "pagemap": {
+        "metatags": [
+          {
+            "summary": "1. Distance measures for skill vectors:\u003cbr\u003e\u003cbr\u003e$$d_{Euclidean} (s_1, s_2) ^2 = ||s_1 - s_2||^2 = 2(1- s_1\\cdot s_2) = 2d_{cosine}(s_1, s_2) , \\forall s_1, s_2 \\in U^d $$\u003cbr\u003e\u003cbr\u003e2. Distances and Odds Ratios\u003cbr\u003e\u003cbr\u003eThen the authors show how a pairwise distance between two skill vectors is related to the logarithm of their odds ratio:\u003cbr\u003e$$p = P( c = 1 | KS, s), o =\\frac {p} {1-p}$$ \u003cbr\u003e$$ \\log (\\frac {o_1}{o_2} ) ^2 = (KS \\cdot \\delta_{1, 2} )^2 \\times 2dcosine(s_1, s_2)$$\u003cbr\u003e$$\\delta_{1, 2} = \\frac {s_1 - s_2} {|| s_1 - s_2||}$$ By: Nini Keywords: Probabilistic Skill Similarity (Knowledge Query Network for Knowledge Tracing) Data Science,",
+            "date": "2020-11-19",
+            "coverage": "Worldwide",
+            "copyright": "1Cademy",
+            "handheldfriendly": "False",
+            "subject": "Probabilistic Skill Similarity (Knowledge Query Network for Knowledge Tracing) - Nini",
+            "author": "Nini",
+            "rating": "General",
+            "language": "ENG",
+            "abstract": "1. Distance measures for skill vectors:\u003cbr\u003e\u003cbr\u003e$$d_{Euclidean} (s_1, s_2) ^2 = ||s_1 - s_2||^2 = 2(1- s_1\\cdot s_2) = 2d_{cosine}(s_1, s_2) , \\forall s_1, s_2 \\in U^d $$\u003cbr\u003e\u003cbr\u003e2. Distances and Odds Ratios\u003cbr\u003e\u003cbr\u003eThen the authors show how a pairwise distance between two skill vectors is related to the logarithm of their odds ratio:\u003cbr\u003e$$p = P( c = 1 | KS, s), o =\\frac {p} {1-p}$$ \u003cbr\u003e$$ \\log (\\frac {o_1}{o_2} ) ^2 = (KS \\cdot \\delta_{1, 2} )^2 \\times 2dcosine(s_1, s_2)$$\u003cbr\u003e$$\\delta_{1, 2} = \\frac {s_1 - s_2} {|| s_1 - s_2||}$$",
+            "classification": "Concept",
+            "distribution": "Global",
+            "target": "all",
+            "viewport": "width=device-width, initial-scale=1",
+            "topic": "Probabilistic Skill Similarity (Knowledge Query Network for Knowledge Tracing)",
+            "revised": "Thu Nov 19 2020 16:26:43 GMT+0000 (Coordinated Universal Time)",
+            "reply-to": "info@1cademy.com"
+          }
+        ],
+        "MediaObject": [
+          {
+            "datePublished": "2020-11-19",
+            "itemtype": "http://schema.org/MediaObject",
+            "name": "Probabilistic Skill Similarity (Knowledge Query Network for Knowledge Tracing) - Nini",
+            "description": "1. Distance measures for skill vectors:\u003cbr\u003e\u003cbr\u003e$$d_{Euclidean} (s_1, s_2) ^2 = ||s_1 - s_2||^2 = 2(1- s_1\\cdot s_2) = 2d_{cosine}(s_1, s_2) , \\forall s_1, s_2 \\in U^d $$\u003cbr\u003e\u003cbr\u003e2. Distances and Odds Ratios\u003cbr\u003e\u003cbr\u003eThen the authors show how a pairwise distance between two skill vectors is related to the logarithm of their odds ratio:\u003cbr\u003e$$p = P( c = 1 | KS, s), o =\\frac {p} {1-p}$$ \u003cbr\u003e$$ \\log (\\frac {o_1}{o_2} ) ^2 = (KS \\cdot \\delta_{1, 2} )^2 \\times 2dcosine(s_1, s_2)$$\u003cbr\u003e$$\\delta_{1, 2} = \\frac {s_1 - s_2} {|| s_1 - s_2||}$$ By: Nini Keywords: Probabilistic Skill Similarity (Knowledge Query Network for Knowledge Tracing) Data Science,",
+            "dateModified": "2020-11-19",
+            "nodeType": "Concept",
+            "url": "https://node.1cademy.com/node/Probabilistic%20Skill%20Similarity%20(Knowledge%20Query%20Network%20for%20Knowledge%20Tracing)/A0CMOcl3LiTKSVQXGDjy"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Early Stopping in Deep Learning - nbalkovic",
+      "htmlTitle": "Early Stopping in Deep Learning - nbalkovic",
+      "link": "https://node.1cademy.com/node/Early%20Stopping%20in%20Deep%20Learning/h9zcJOIrnGXklj4IeTQ4",
+      "displayLink": "node.1cademy.com",
+      "snippet": "Mar 17, 2021 ... ... training of your neural network early (hence early stopping). By: nbalkovic \nKeywords: Early Stopping in Deep Learning Data Science, Image: ...",
+      "htmlSnippet": "Mar 17, 2021 \u003cb\u003e...\u003c/b\u003e ... training of your neural network early (hence early stopping). By: nbalkovic \u003cbr\u003e\nKeywords: Early Stopping in Deep Learning \u003cb\u003eData Science\u003c/b\u003e, Image:&nbsp;...",
+      "cacheId": "ptlrZaRuOZkJ",
+      "formattedUrl": "https://node.1cademy.com/node/.../h9zcJOIrnGXklj4IeTQ4",
+      "htmlFormattedUrl": "https://node.1cademy.com/node/.../h9zcJOIrnGXklj4IeTQ4",
+      "pagemap": {
+        "metatags": [
+          {
+            "summary": "Plot training error and dev set error over the number of iterations. Then find at what number of iterations your neural network was doing best. You then take the value where that particular dev set was doing well. Rate W is likely to be mid-sized, and therefore you are picking a network with a smaller norm. You stop the training of your neural network early (hence early stopping).   By: nbalkovic Keywords: Early Stopping in Deep Learning Data Science,  \u003cbr\u003eImage: https://firebasestorage.googleapis.com/v0/b/onecademy-1.appspot.com/o/UploadedImages%2FK3DmaX1ZAfXSZ5EzWvz46uJ09fZ2%2FWed%2C%2017%20Mar%202021%2018%3A56%3A35%20GMT.png?alt=media&token=cf2d37ef-a305-4220-92e8-cf1dc8396943",
+            "date": "2021-03-17",
+            "coverage": "Worldwide",
+            "copyright": "1Cademy",
+            "handheldfriendly": "False",
+            "subject": "Early Stopping in Deep Learning - nbalkovic",
+            "author": "nbalkovic",
+            "rating": "General",
+            "language": "ENG",
+            "abstract": "Plot training error and dev set error over the number of iterations. Then find at what number of iterations your neural network was doing best. You then take the value where that particular dev set was doing well. Rate W is likely to be mid-sized, and therefore you are picking a network with a smaller norm. You stop the training of your neural network early (hence early stopping).",
+            "classification": "Concept",
+            "distribution": "Global",
+            "target": "all",
+            "viewport": "width=device-width, initial-scale=1",
+            "topic": "Early Stopping in Deep Learning",
+            "revised": "Wed Mar 17 2021 18:56:51 GMT+0000 (Coordinated Universal Time)",
+            "reply-to": "info@1cademy.com"
+          }
+        ],
+        "MediaObject": [
+          {
+            "datePublished": "2020-09-29",
+            "image": "https://firebasestorage.googleapis.com/v0/b/onecademy-1.appspot.com/o/UploadedImages%2FK3DmaX1ZAfXSZ5EzWvz46uJ09fZ2%2FWed%2C%2017%20Mar%202021%2018%3A56%3A35%20GMT.png?alt=media&token=cf2d37ef-a305-4220-92e8-cf1dc8396943",
+            "itemtype": "http://schema.org/MediaObject",
+            "name": "Early Stopping in Deep Learning - nbalkovic",
+            "description": "Plot training error and dev set error over the number of iterations. Then find at what number of iterations your neural network was doing best. You then take the value where that particular dev set was doing well. Rate W is likely to be mid-sized, and therefore you are picking a network with a smaller norm. You stop the training of your neural network early (hence early stopping).   By: nbalkovic Keywords: Early Stopping in Deep Learning Data Science,  \u003cbr\u003eImage: https://firebasestorage.googleapis.com/v0/b/onecademy-1.appspot.com/o/UploadedImages%2FK3DmaX1ZAfXSZ5EzWvz46uJ09fZ2%2FWed%2C%2017%20Mar%202021%2018%3A56%3A35%20GMT.png?alt=media&token=cf2d37ef-a305-4220-92e8-cf1dc8396943",
+            "dateModified": "2021-03-17",
+            "nodeType": "Concept",
+            "url": "https://node.1cademy.com/node/Early%20Stopping%20in%20Deep%20Learning/h9zcJOIrnGXklj4IeTQ4"
+          }
+        ]
+      }
+    }
+  ]
+}
